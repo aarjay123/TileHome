@@ -32,7 +32,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "io.github.cherryhoax.discolauncher"
+        applicationId = "com.nugget.tilelauncher"
         minSdk = 26
         targetSdk = 35
         // VERSIONCODE START
@@ -142,7 +142,7 @@ android {
     }
     buildTypes {
         release {
-            isMinifyEnabled = false
+            isMinifyEnabled = true
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"

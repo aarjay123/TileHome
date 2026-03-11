@@ -4,7 +4,7 @@ const webpack = require('webpack');
 module.exports = env => {
   const webpackVariables = {
     mode: env.production ? "production" : "development",
-    forceDevelopmentEnv: true
+    forceDevelopmentEnv: false
   }
   return {
     mode: env.production ? "production" : "development",
